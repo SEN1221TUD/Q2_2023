@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Welcome to the repository for the SEN1221 course on Statistical Analysis of Choice Behaviour. This ReadMe file contains all the essential information and instructions for the course. Here, you will find materials for lab sessions 1, 2, and 3, along with their respective databases. Please review the following information carefully.
+Welcome to the repository for the SEN1221 course on Statistical Analysis of Choice Behaviour. Here, you will find notebooks for the lab sessions and the datasets. Please review the following information carefully.
 
 If you are not familiar with Python, we recommend completing lab session 0, which provides the necessary tools covered in a core Python course. This knowledge will enable you to follow lab sessions 1 to 3, covering topics such as data structures, utilising external libraries, data exploration, visualization, etc. Additionally, it will help you set up and become acquainted with the coding environment (see [this link] to prepare your environment).
 
@@ -10,27 +10,26 @@ If you are not familiar with Python, we recommend completing lab session 0, whic
 
 Discrete Choice Models (DCMs) have been widely employed to study the decision-making behaviour of individuals across various scientific domains, including transportation, marketing, and health, among others. DCMs are particularly used to infer preferences over attributes and alternatives, forecast demand, and predict the impact of new policies.
 
-This course aims to equip students in the socio-technical domain with a comprehensive understanding of DCMs. It prepares students to formulate hypotheses, develop diverse models, and generate solutions for the challenges our society faces in their future careers. 
+This course aims to equip students in the socio-technical domain with a comprehensive understanding of DCMs. It prepares students to develop diverse models to generate solutions to societal  challenges. 
 
 The course consists of oral lectures and lab sessions. While attendance at lectures and lab sessions is highly recommended to keep up with the course, it is not mandatory.
 
 ## Lab sessions
-Lab sessions aim to demonstrate and reinforce knowledge about different discrete choice models, the underlying assumptions, estimation techniques, and how to interpret model outcomes. They provide students with hands-on experience in discrete choice modelling. The lab sessions include a series of exercises in the form of Jupyter notebooks. 
+Lab sessions aim to demonstrate and reinforce knowledge about different discrete choice models, the underlying assumptions, estimation techniques, and how to interpret model outcomes. They provide hands-on experience in discrete choice modelling. The lab sessions include a series of exercises in the form of Jupyter notebooks. 
 
-`Lab session 1` introduces discrete choice models, focusing specifically on the Multinomial Logit (MNL) model based on random utility theory. Students will acquire the skills to explore choice databases, build and estimate choice models using the Python package Biogeme, and perform statistical tests to compare different model specifications.
+`Lab session 1` introduces discrete choice models, focusing specifically on the Multinomial Logit (MNL) model based on random utility theory. You will acquire skills to explore choice datasets, build and estimate choice models using specialised Python package called Biogeme, and perform statistical tests to compare different model specifications.
 
-`Lab session 2` focusses on the Mixed Logit models. Students will gain proficiency in building and estimating various types of Mixed Logit models by altering assumptions about preference heterogeneity and distributions to capture unobserved taste heterogeneity. Furthermore, we will explore the impact of the number of draws on the estimation outcomes. 
+`Lab session 2` focusses on the Mixed Logit models. Students will gain proficiency in building and estimating various types of Mixed Logit models by altering assumptions about unobserved preference and taste heterogeneity. Furthermore, you will explore the impact of the number of draws on the estimation outcomes. 
 
 `Lab session 3`  
 
+For the lab sessions, we use Python notebooks (Jupyter Notebooks). You have two options to work in them:
+A. Local environment (recommended)
+B. Google Colab
 
-
-## 3. Notes
-
-* This repository provides all the materials from the lectures and hands-on labs to successfully complete the course.
-* You can also work locally on your laptop if you want to. Here are instructions on how to do it.
-* Make sure you use Python X or above
-* The requirements.txt file contains all the Python dependencies needed to run the codes used in this course. In each notebook file, we provide two ways to set up your environments: (1) Google Colab and (2) Local. Note that this file may be updated during the course to include more dependencies.
+For both options, instructions to set up tyour environment are given at the end of this page.
+Accordingly, in each notebook file, we provide two ways to set up your environments: (1) Google Colab and (2) Local. 
+Note that the requirements files may be updated during the course to include more dependencies, if needed.
 
 ## 4. Q&A Forum
 
@@ -49,19 +48,17 @@ After that, one instructor or teacher assistant will reply to your question. Als
 
 ## 5. Instructions to set up your workspace
 
-In this course, you will work with Python notebooks (Jupyter Notebooks) which can be easily opened in a local environment. It is recommended that you work locally on your laptop using the requirements file to install the necessary packages. However, you also have the option to use Google Colab.
-
 ### a. Local environment (recommended)
 
-To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer(Jupyter, VSCode, or any alternatives). It's also beneficial to possess basic skills in working with virtual environments, especially if you prefer to keep your current dependencies separate.
+To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
 
-Please follow the steps we've included below to set up the workspace.
+Please follow the steps below to set up the workspace.
 
 * Step 1: Clone or download this repo to your computer (see Step 1 in the Colab section).
 * Step 2: Two options: (a) Install dependencies separate from your current Python version; (b) Install dependencies for this notebook in your Python version (easy way):
     * Step 2. a (For those familiar with environments):
         * Create a new "virtual environment" (a separate workspace for your project).
-        *  Install the required packages listed in the requirements_local.txt file within this environment.
+        * Install the required packages listed in the requirements_local.txt file within this environment.
         * Open the notebook you want to work on (Step 1) and make sure it's running in the newly created environment.
                          
     * Step 2. b (easy way):
@@ -71,21 +68,21 @@ Please follow the steps we've included below to set up the workspace.
           ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/f99e2410-912e-45c8-819e-69200630f853)
 
           
-    * Creating a New Virtual Environment:
+    * Instructions for creating a new virtual environment (if choose option a):
 
-      To create one, you can follow these steps:
+      Create a virtual environment:
         * Open your command prompt or terminal.
         * Navigate to the directory where you want to create the environment.
         * Type: python -m venv myenv (Replace myenv with a name you choose for your environment).
         * Activate the environment (on Windows, type: myenv\Scripts\activate, on MacOS/Linux, type: source myenv/bin/activate).
           
-    * Installing Requirements from a File:
+    * Install requirements from a File:
         * With your environment activated, navigate to the folder containing the requirements_local.txt file and run: pip install -r requirements_local.txt.
 
 
 ### b. Google Colab 
 
-The minimum requirements to get started are quite simple. You will need a Google account, the Google Chrome web browser and a stable internet connection. These essentials will allow you to work smoothly as you immerse yourself in the course material.
+For this option, you need a Google account,  the Google Chrome web browser, and a stable internet connection.
 
 Please follow the steps we've included below to set up the workspace.
 
