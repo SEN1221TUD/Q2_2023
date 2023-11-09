@@ -2,29 +2,28 @@
 
 ## 1. Introduction
 
-Welcome to the repository for the SEN1221 course on Statistical Analysis of Choice Behaviour. This ReadMe file contains all the essential information and instructions for the course. Here, you will find materials for Lab Sessions 1, 2, and 3, along with their respective databases. Please review the following information carefully.
+Welcome to the repository for the SEN1221 course on Statistical Analysis of Choice Behaviour. This ReadMe file contains all the essential information and instructions for the course. Here, you will find materials for lab sessions 1, 2, and 3, along with their respective databases. Please review the following information carefully.
 
-If you are not familiar with Python, we recommend completing Lab Session 0, which provides the necessary tools covered in a core Python course. This knowledge will enable you to follow Lab Sessions 1 to 3, covering topics such as data structures, utilizing external libraries, data exploration, visualization, etc. Additionally, it will help you set up and become acquainted with the coding environment (see [this link] to prepare your environment).
+If you are not familiar with Python, we recommend completing lab session 0, which provides the necessary tools covered in a core Python course. This knowledge will enable you to follow lab sessions 1 to 3, covering topics such as data structures, utilising external libraries, data exploration, visualization, etc. Additionally, it will help you set up and become acquainted with the coding environment (see [this link] to prepare your environment).
 
 ## 2. Description
 
-Discrete choice models (DCMs) have been widely employed to study and comprehend the decision-making behavior of individuals across various scientific domains, including transportation, marketing, and health, among others. DCMs are frequently utilized to deduce preferences over attributes and alternatives, analyze policy formulation, forecast demand, and predict the impact of future scenarios. To tackle these challenges, it is imperative to possess not only a robust theoretical foundation but also programming skills for building models, estimating parameters, and interpreting outputs.
+Discrete Choice Models (DCMs) have been widely employed to study the decision-making behaviour of individuals across various scientific domains, including transportation, marketing, and health, among others. DCMs are particularly used to infer preferences over attributes and alternatives, forecast demand, and predict the impact of new policies.
 
-This course aims to equip students in the socio-technical domain with a comprehensive understanding of DCMs. It prepares students to formulate hypotheses, develop diverse models, and generate solutions for the challenges our society faces in their future careers. The course is divided into three parts:
+This course aims to equip students in the socio-technical domain with a comprehensive understanding of DCMs. It prepares students to formulate hypotheses, develop diverse models, and generate solutions for the challenges our society faces in their future careers. 
 
-### Part 1: Introduction to Choice Behaviour Analysis
+The course consists of oral lectures and lab sessions. While attendance at lectures and lab sessions is highly recommended to keep up with the course, it is not mandatory.
 
-During this lab session, we will introduce concepts related to the analysis of discrete choice models, focusing specifically on the Multinomial Logit model based on random utility theory. Students will acquire the necessary skills to explore choice databases, build and estimate models using the Python package Biogeme, and perform statistical tests to compare different model specifications.
+## Lab sessions
+Lab sessions aim to demonstrate and reinforce knowledge about different discrete choice models, the underlying assumptions, estimation techniques, and how to interpret model outcomes. They provide students with hands-on experience in discrete choice modelling. The lab sessions include a series of exercises in the form of Jupyter notebooks. 
 
-### Part 2: The Mixed Logit Model
+`Lab session 1` introduces discrete choice models, focusing specifically on the Multinomial Logit (MNL) model based on random utility theory. Students will acquire the skills to explore choice databases, build and estimate choice models using the Python package Biogeme, and perform statistical tests to compare different model specifications.
 
-In this lab session, our focus will be on the specification of Mixed Multinomial Logit models. Students will gain proficiency in building and estimating models using the Python package Biogeme. Additionally, we will explore and compare various models by altering assumptions about taste variation in the population, as well as distributions and the number of draws considered in the estimation. Students will develop the ability to interpret parameter outcomes and understand the implications of each of the previously considered assumptions.
+`Lab session 2` focusses on the Mixed Logit models. Students will gain proficiency in building and estimating various types of Mixed Logit models by altering assumptions about preference heterogeneity and distributions to capture unobserved taste heterogeneity. Furthermore, we will explore the impact of the number of draws on the estimation outcomes. 
 
-### Part 3: Combining Discrete Choice Models and Machine Learning
+`Lab session 3`  
 
-The course comprises oral lectures, lab sessions, and one exam. The lab sessions aim to demonstrate and reinforce knowledge about different discrete choice models, the underlying assumptions, estimation techniques, and how to interpret model outcomes. They also provide students with hands-on experience in discrete choice modelling. The lab sessions include a series of exercises in the form of Jupyter notebooks.
 
-The course consists of X oral lectures and 1 lab session per week. While attendance at lectures and lab sessions is highly recommended to keep up with the course, it is not mandatory.
 
 ## 3. Notes
 
