@@ -53,7 +53,7 @@ In this course, you will work with Python notebooks (Jupyter Notebooks) which ca
 
 ### a. Local environment (recommended)
 
-To get started, make sure you have a Python 3.11 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer(Jupyter, VSCode, or any alternatives). It's also beneficial to possess basic skills in working with virtual environments, especially if you prefer to keep your current dependencies separate.
+To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer(Jupyter, VSCode, or any alternatives). It's also beneficial to possess basic skills in working with virtual environments, especially if you prefer to keep your current dependencies separate.
 
 Please follow the steps we've included below to set up the workspace.
 
