@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Welcome to the git repository of Statistical Analysis of Choice Behaviour (part 1). Here, you will find notebooks for the lab sessions and the datasets. Please review the following information carefully.
+Welcome to the git repository of Statistical Analysis of Choice Behaviour (part 1). Here, you find notebooks for the lab sessions. Please review the following information carefully.
 
 ## 2. Description
 
