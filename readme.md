@@ -2,13 +2,11 @@
 
 ## 1. Introduction
 
-Welcome to the repository for the SEN1221 course on Statistical Analysis of Choice Behaviour. Here, you will find notebooks for the lab sessions and the datasets. Please review the following information carefully.
-
-If you are not familiar with Python, we recommend completing lab session 0, which provides the necessary tools covered in a core Python course. This knowledge will enable you to follow lab sessions 1 to 3, covering topics such as data structures, utilising external libraries, data exploration, visualization, etc. Additionally, it will help you set up and become acquainted with the coding environment (see [this link] to prepare your environment).
+Welcome to the git repository of Statistical Analysis of Choice Behaviour (part 1). Here, you will find notebooks for the lab sessions and the datasets. Please review the following information carefully.
 
 ## 2. Description
 
-Discrete Choice Models (DCMs) have been widely employed to study the decision-making behaviour of individuals across various scientific domains, including transportation, marketing, and health, among others. DCMs are particularly used to infer preferences over attributes and alternatives, forecast demand, and predict the impact of new policies.
+Discrete Choice Models (DCMs) are widely used to study the decision-making behaviour of individuals across numerous scientific domains, including transportation, marketing, and health, among others. DCMs are particularly used to infer tastes and preferences over attributes and alternatives, forecast demand, and predict the impact of new policies.
 
 This course aims to equip students in the socio-technical domain with a comprehensive understanding of DCMs. It prepares students to develop diverse models to generate solutions to societal  challenges. 
 
@@ -27,13 +25,16 @@ For the lab sessions, we use Python notebooks (Jupyter Notebooks). You have two 
 A. Local environment (recommended)
 B. Google Colab
 
-For both options, instructions to set up tyour environment are given at the end of this page.
-Accordingly, in each notebook file, we provide two ways to set up your environments: (1) Google Colab and (2) Local. 
-Note that the requirements files may be updated during the course to include more dependencies, if needed.
+For both options, **instructions** to set up your Python environment are given at the **end of this page**.
+Accordingly, in each notebook file, we provide two ways to set up your environments: 
+(1) Local
+(2) Google Colab 
+
+If you are **unfamiliar with Python**, we recommend completing **lab session 0**, which provides the necessary tools to conduct the lab sessions. It covers topics such as data structures, utilising external libraries, data exploration, visualisation, etc. 
 
 ## 4. Q&A Forum
 
-In order to solve any doubt or facilitate communication, we will use the [Issues](https://github.com/SEN1221TUD/2023_internal/issues) section as the official forum of the course. In this section, you can post your questions, including questions related to the content of the lectures, specific questions about the lab sessions, and technical problems with Python. Before creating a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can also comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue, see Issues and check it out.
+We use the [Issues](https://github.com/SEN1221TUD/2023_internal/issues) section as the official forum of the course. In this section, you can post your questions, including questions related to the content of the lectures, specific questions about the lab sessions, and technical problems with Python. Before creating a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can also comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue; see [Issues](https://github.com/SEN1221TUD/2023_internal/issues).
 
 To create a new issue (question or problem) in the course repository, follow these steps:
 
@@ -108,7 +109,7 @@ Please follow the steps we've included below to set up the workspace.
 
 * Step 7: You are all set! You can work on your notebook.
 
-
+Finally, note that the requirements files may be updated during the course to include more dependencies if needed.
    
 
 
