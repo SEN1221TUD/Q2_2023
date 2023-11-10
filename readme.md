@@ -34,7 +34,7 @@ If you are **unfamiliar with Python**, we recommend completing **lab session 0**
 
 ## 4. Q&A Forum
 
-We use the [Issues](https://github.com/SEN1221TUD/2023_internal/issues) section as the official forum of the course. In this section, you can post your questions, including questions related to the content of the lectures, specific questions about the lab sessions, and technical problems with Python. Before creating a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can also comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue; see [Issues](https://github.com/SEN1221TUD/2023_internal/issues).
+We use the [Issues](https://github.com/SEN1221TUD/2023_internal/issues) section as the Q&A platform of this course (part 1). Here, you can post your questions related to the content of the lectures,  the lab sessions, and technical problems with Python. Before you create a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue; see [Issues](https://github.com/SEN1221TUD/2023_internal/issues).
 
 To create a new issue (question or problem) in the course repository, follow these steps:
 
@@ -45,7 +45,7 @@ To create a new issue (question or problem) in the course repository, follow the
 5. Add a topic label from the right-hand side. Click on the gear icon next to "Labels" and choose the label based on the topic of your question. 
 6. Click on "Submit new issue" in the green button below the text description.
 
-After that, one instructor or teacher assistant will reply to your question. Also, you are allowed (even encouraged) to help others, if you can! If you know how to help your fellow student with an issue, share your thoughts and answers.
+After that, the lecturer or teaching assistant will reply to your question. Also, you are allowed (even encouraged) to reply to questions posted by your fellow students! If you know how to help your fellow student with an issue, share your thoughts!
 
 ## 5. Instructions to set up your workspace
 
@@ -53,22 +53,21 @@ After that, one instructor or teacher assistant will reply to your question. Als
 
 To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
 
-Please follow the steps below to set up the workspace.
+Please follow the steps below to set up your environment.
 
 * Step 1: Clone or download this repo to your computer (see Step 1 in the Colab section).
-* Step 2: Two options: (a) Install dependencies separate from your current Python version; (b) Install dependencies for this notebook in your Python version (easy way):
-    * Step 2. a (For those familiar with environments):
-        * Create a new "virtual environment" (a separate workspace for your project).
+* Step 2: Now you have two options: (a) Install dependencies separate from your current Python version; (b) Install dependencies for this notebook in your Python version (easy way):
+    * Option a: (for those familiar with Python environments):
+        * Create a new "virtual environment" (a separate workspace for this course).
         * Install the required packages listed in the requirements_local.txt file within this environment.
         * Open the notebook you want to work on (Step 1) and make sure it's running in the newly created environment.
                          
-    * Step 2. b (easy way):
+    * Option b: (easiest way; for people unfamiliar with Python environments):
         * Open the Python notebook you want to work on (Step 1)
         * Uncomment the line related to using a local set-up and run it (see the figure below).
         * Re-comment the lines to avoid re-installing the dependencies every time you run the notebook.
           ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/f99e2410-912e-45c8-819e-69200630f853)
 
-          
     * Instructions for creating a new virtual environment (if choose option a):
 
       Create a virtual environment:
