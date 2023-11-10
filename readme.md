@@ -19,7 +19,7 @@ Lab sessions aim to demonstrate and reinforce knowledge about different discrete
 
 `Lab session 2` focusses on the Mixed Logit models. Students will gain proficiency in building and estimating various types of Mixed Logit models by altering assumptions about unobserved preference and taste heterogeneity. Furthermore, you will explore the impact of the number of draws on the estimation outcomes. 
 
-`Lab session 3`  
+`Lab session 3` focusses on the latest developments in the field: combining discrete choice modelling and machine learning for choice behaviour analysis. You will work with neural networks and explore how they can be integrated within utility-based choice models.   
 
 For the lab sessions, we use Python notebooks (Jupyter Notebooks). You have two options to work in them:
 A. Local environment (recommended)
