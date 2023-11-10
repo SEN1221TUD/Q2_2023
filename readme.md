@@ -66,7 +66,8 @@ Please follow the steps below to set up your environment.
         * Open the Python notebook you want to work on (Step 1)
         * Uncomment the line related to using a local set-up and run it (see the figure below).
         * Re-comment the lines to avoid re-installing the dependencies every time you run the notebook.
-          ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/f99e2410-912e-45c8-819e-69200630f853)
+          ![image](https://github.com/SEN1221TUD/Q2_2023/assets/130387534/1e5311db-fd36-4e0f-8384-a67600686b3f)
+
 
     * Instructions for creating a new virtual environment (if choose option a):
         * Open your command prompt or terminal.
@@ -99,7 +100,8 @@ Please follow the steps we've included below to set up the workspace.
 * Step 6: Importantly, Each notebook has a cell to prepare the data and environment in Google Colab. Uncomment (i.e. remove the '#') the lines related to the Colab set-up in your notebook, see the figure below. Run this cell and wait until finished.
 
 
-![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/8e65c497-417a-4c35-9893-93a0ea4a88e0)
+![image](https://github.com/SEN1221TUD/Q2_2023/assets/130387534/83da74bf-21ca-471a-865f-73ee97798e25)
+
 
 
 * Step 7: You are all set! You can work on your notebook.
