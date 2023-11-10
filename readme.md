@@ -66,7 +66,7 @@ Please follow the steps below to set up your environment.
         * Open the Python notebook you want to work on (Step 1)
         * Uncomment the line related to using a local set-up and run it (see the figure below).
         * Re-comment the lines to avoid re-installing the dependencies every time you run the notebook.
-          ![image](https://github.com/SEN1221TUD/Q2_2023/assets/130387534/1298a558-ed0a-42b5-89e1-960c2e06aa28)
+          [![image](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/img_1.png)
 
 
 
@@ -86,7 +86,7 @@ Please follow the steps we've included below to set up the workspace.
 
 * Step 1: Download this repo to your computer. On the top of this site, click on (1)<>Code tab, then in the green button (2)Code and then (3) Download ZIP (See numbers 1, 2, and 3 on the following image). Unzip this file into a working folder of your own choice.
 
-  ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/eb315f01-9476-45ca-8a56-60f421695bb3)
+   [![image](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/img_2.png)
 
 
 * Step 2: Go to http://colab.research.google.com
@@ -94,14 +94,14 @@ Please follow the steps we've included below to set up the workspace.
 * Step 3: Sign in with your Google account (if you are already signed in, skip this step). If you do not have a Google account, you must (temporarily) create one.
 
 * Step 4: Upload the Python notebook you want to work on to Colab. Click on the "Upload" tab and then on the "Choose file" tab, see numbers 1 and 2 in the figure below. Then, navigate to your working folder (Step 1) and select the Python notebook (.ipynb) you want to work on (e.g. lab_session_00.ipynb).
-  ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/ec1ee58e-7d68-46e5-85e4-542c24d8b29e)
+  [![image](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/img_3.png)
   
 * Step 5: Once open, click on "View" >> "Expand sections" on the menu bar.
 
 * Step 6: Importantly, Each notebook has a cell to prepare the data and environment in Google Colab. Uncomment (i.e. remove the '#') the lines related to the Colab set-up in your notebook, see the figure below. Run this cell and wait until finished.
 
 
-![image](https://github.com/SEN1221TUD/Q2_2023/assets/130387534/0794be6d-2134-46be-8f24-b317455c3e9d)
+ [![image](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/img_4.png)
 
 
 
