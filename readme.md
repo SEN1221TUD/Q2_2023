@@ -69,15 +69,11 @@ Please follow the steps below to set up your environment.
           ![image](https://github.com/SEN1221TUD/2023_internal/assets/130387534/f99e2410-912e-45c8-819e-69200630f853)
 
     * Instructions for creating a new virtual environment (if choose option a):
-
-      Create a virtual environment:
         * Open your command prompt or terminal.
         * Navigate to the directory where you want to create the environment.
         * Type: python -m venv myenv (Replace myenv with a name you choose for your environment).
         * Activate the environment (on Windows, type: myenv\Scripts\activate, on MacOS/Linux, type: source myenv/bin/activate).
-          
-    * Install requirements from a File:
-        * With your environment activated, navigate to the folder containing the requirements_local.txt file and run: pip install -r requirements_local.txt.
+        * Install requirements from a File. With your environment activated, navigate to the folder containing the requirements_local.txt file and run: pip install -r requirements_local.txt.
 
 
 ### b. Google Colab 
