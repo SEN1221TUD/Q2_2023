@@ -1,0 +1,7 @@
+fastapi
+kaleido
+python-multipart
+uvicorn
+biogeme
+biogeme-optimization
+numpy
