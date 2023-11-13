@@ -1,0 +1,13 @@
+﻿Neighbourhood,ID,CITY,FOREIGN,GREEN,NOISE,STORES,TRANSPORT
+ Altstadt ,1,1,0.2222,2,1,2,5
+"Enge, Wollishofen, Leimbach ",2,4,0.1572,4,3,5,10
+Wiedikon ,3,3,0.2345,3,3,10,15
+Aussersihl ,4,2,0.2734,1,4,5,5
+Industriequartier,5,2,0.1806,1,4,10,2
+"Oberstrass, Unterstrass",6,3,0.1588,3,3,10,10
+"Fluntern, Hottingen, Hirslanden, Witikon",7,4,0.16,4,1,10,15
+Riesbach,8,3,0.1798,3,3,5,15
+"Altstetten, Albisrieden",9,4,0.3077,3,2,5,10
+"Wipkingen, Höngg ",10,4,0.2477,4,3,15,10
+"Affoltern, Oerlikon, Seebach",11,4,0.3295,3,1,15,15
+Schwamendingen ,12,4,0.3561,4,3,5,10
