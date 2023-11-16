@@ -51,7 +51,7 @@ After that, the lecturer or teaching assistant will reply to your question. Also
 
 ### a. Local environment (recommended)
 
-To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
+To get started, make sure you have Python 3.7 or a more recent version up to 3.10 installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
 
 Please follow the steps below to set up your environment.
 
