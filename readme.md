@@ -51,7 +51,7 @@ After that, the lecturer or teaching assistant will reply to your question. Also
 
 ### a. Local environment (recommended)
 
-To get started, make sure you have a Python 3.10 or a newer version installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
+To get started, make sure you have Python 3.7 or a more recent version up to 3.10 installed. Additionally, ensure you have set up an IPython environment on your computer (Jupyter, VSCode, or any alternatives). 
 
 Please follow the steps below to set up your environment.
 
@@ -59,7 +59,7 @@ Please follow the steps below to set up your environment.
 * Step 2: Now you have two options: (a) Install dependencies separate from your current Python version; (b) Install dependencies for this notebook in your Python version (easy way):
     * Option a: (for those familiar with Python environments):
         * Create a new "virtual environment" (a separate workspace for this course).
-        * Install the required packages listed in the requirements_local.txt file within this environment.
+        * Install the required packages listed in the requirements.txt file within this environment.
         * Open the notebook you want to work on (Step 1) and make sure it's running in the newly created environment.
                          
     * Option b: (easiest way; for people unfamiliar with Python environments):
@@ -75,7 +75,7 @@ Please follow the steps below to set up your environment.
         * Navigate to the directory where you want to create the environment.
         * Type: python -m venv myenv (Replace myenv with a name you choose for your environment).
         * Activate the environment (on Windows, type: myenv\Scripts\activate, on MacOS/Linux, type: source myenv/bin/activate).
-        * Install requirements from a File. With your environment activated, navigate to the folder containing the requirements_local.txt file and run: pip install -r requirements_local.txt.
+        * Install requirements from a File. With your environment activated, navigate to the folder containing the requirements.txt file and run: pip install -r requirements.txt.
 
 
 ### b. Google Colab 
