@@ -4,4 +4,4 @@ python-multipart
 uvicorn
 biogeme
 biogeme-optimization
-numpy
+numpy == 1.25
