@@ -1,6 +1,6 @@
+biogeme
+biogeme-optimization
 fastapi
 kaleido
 python-multipart
 uvicorn
-biogeme
-biogeme-optimization
