@@ -1,0 +1,39 @@
+[TrustRegion]
+dogleg = "True"
+
+[Output]
+identification_threshold = 1e-5
+only_robust_stats = "True"
+generate_html = "False"
+generate_pickle = "False"
+
+[MonteCarlo]
+number_of_draws = 50
+seed = 0
+
+[SimpleBounds]
+second_derivatives = 1.0
+tolerance = 6.06273418136464e-6
+max_iterations = 100
+infeasible_cg = "False"
+initial_radius = 10
+steptol = 1e-5
+enlarging_factor = 10
+
+[MultiThreading]
+number_of_threads = 0
+
+[Specification]
+missing_data = 99999
+
+[Estimation]
+bootstrap_samples = 100
+max_number_parameters_to_report = 15
+save_iterations = "False"
+maximum_number_catalog_expressions = 100
+optimization_algorithm = "simple_bounds"
+
+[AssistedSpecification]
+number_of_neighbors = 20
+largest_neighborhood = 20
+maximum_attempts = 100

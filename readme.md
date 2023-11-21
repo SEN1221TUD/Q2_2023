@@ -34,7 +34,7 @@ If you are **unfamiliar with Python**, we recommend completing **lab session 0**
 
 ## 4. Q&A Forum
 
-We use the [Issues](https://github.com/SEN1221TUD/2023_internal/issues) section as the Q&A platform of this course (part 1). Here, you can post your questions related to the content of the lectures,  the lab sessions, and technical problems with Python. Before you create a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue; see [Issues](https://github.com/SEN1221TUD/2023_internal/issues).
+We use the [Issues](https://github.com/SEN1221TUD/Q2_2023/issues) section as the Q&A platform of this course (part 1). Here, you can post your questions related to the content of the lectures,  the lab sessions, and technical problems with Python. Before you create a new issue, please make sure the issue has not been raised before by one of your classmates. Besides asking questions, you can comment on the earlier issues e.g. to continue the discussion. As an example, we have already created the first issue; see [Issues](https://github.com/SEN1221TUD/Q2_2023/issues).
 
 To create a new issue (question or problem) in the course repository, follow these steps:
 
@@ -111,5 +111,83 @@ Please follow the steps we've included below to set up the workspace.
 Finally, note that the requirements files may be updated during the course to include more dependencies if needed.
    
 
+### c. Anaconda
 
+If you want to use Anaconda, you must use **Python version 3.9.18 or 3.10.13**. Other versions, such as **3.7.16** and **3.8.18**, are known to give problems. Python version **3.11.5** seems to be working, but is not very stable.
 
+##### Instruction 1: Create environment and install requirements from JupyterLab.
+
+1. **Open the environments Tab:** Go to the "Environments" tab on the left sidebar.
+   ![img1](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_1.png)
+
+2. **Create a new environment:** Click on the "Create" button at the bottom of the window.
+
+    ![img2](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_2.png)
+   
+3. **Configure the new environment:** Enter a name for your new environment, e.g., "SEN1221," and choose the Python version == “**3.10.13**" from the drop-down menu.
+
+    ![img3](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_3.png)
+   
+4. **Activate the environment:** Go back to the "Home" tab. You should see your newly created environment at the right-hand side of "All applications"
+ 
+   ![img4](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_4.png)
+   
+5. **Install and launch JupyterLab.**
+ 
+   ![img5](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_5.png)
+   
+6. **Set up the working folder:** Download the SEN1221/Q2_2023 repo from the github repo to your computer . Unzip the file into a working folder of your own choice.
+
+7. **Find workspace through JupyterLab:** You will see the Lab session, the `requirements.txt` file, and the `data` folder.
+ 
+   ![img6](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_6.png)
+   
+8. **Uncomment and run the following cell:**
+
+   ![img7](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_7.png)
+   
+9. **Import all packages**
+ 
+   ![img8](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_8.png)
+   
+In case a package has not been imported, please restart the kernel and repeat steps: 8 and 9
+ 
+   ![img9](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_9.png)
+   
+#### Instruction 2: Create environment and install the requirements through the terminal.
+
+1. **Open the environments tab:** Go to the "Environments" tab on the left sidebar.
+
+   ![img10](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_10.png)
+
+2. **Create a new environment:** Click on the "Create" button at the bottom of the window.
+
+   ![img11](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_11.png)
+
+3. **Configure the new environment:** Enter a name for your new environment, e.g., "SEN1221," and choose the Python version == “3.10.13" from the drop-down menu.
+
+   ![img12](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_12.png)
+
+4. **Activate the environment:** Click on the green "Play" button on the right side of the environment name to open a terminal where the environment is activated.
+
+   ![img13](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_13.png)
+
+5. **Verify Python version:** You can run `python --version` in the terminal.
+
+   ![img14](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_14.png)
+
+6. **Navigate to the project folder:** Use the `cd` command to navigate to the project folder, for example, `cd …/…/…/Q2_2023`.
+
+   ![img15](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_15.png)
+
+7. **Install requirements file:** Now, you can install the `requirements.txt` file within the activated environment using the following command: `pip install -r requirements.txt`
+
+   ![img16](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_16.png)
+  
+8. **Install and launch JupyterLab**
+
+   ![img17](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_17.png)
+   
+9. **Import all packages**
+
+   ![img18](https://github.com/SEN1221TUD/Q2_2023/blob/main/Assets/Anaconda_18.png)
